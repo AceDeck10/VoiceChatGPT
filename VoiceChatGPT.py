@@ -1,3 +1,15 @@
+# VoiceChatGPT: Accepts voice input,
+# converts it to text, sends the transcript
+# to the ChatGPT API and reads ChatGPT's 
+# response aloud.
+# 
+# WARNING!!: This program will not work without
+# an OpenAI API key. More information at
+# https://help.openai.com/en/collections/3675931-openai-api
+#
+# @author: Austine D. Odhiambo AKA Ace Declan
+# Written with the help of ChatGPT
+
 import speech_recognition as sr
 import requests
 from gtts import gTTS
